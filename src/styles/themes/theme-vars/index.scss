@@ -1,0 +1,26 @@
+@import './theme-colors.scss';
+@import './fxl.scss';
+@import './qn.scss';
+@import './rm.scss';
+@import './jz.scss';
+@import './fsyh.scss';
+
+[data-theme='fxl'] {
+  @include fxl;
+}
+
+[data-theme='qn'] {
+  @include qn;
+}
+
+[data-theme='rm'] {
+  @include rm;
+}
+
+[data-theme='jz'] {
+  @include jz;
+}
+
+[data-theme='fsyh'] {
+  @include fsyh;
+}

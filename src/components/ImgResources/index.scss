@@ -1,0 +1,15 @@
+.imgresources-colums-img{
+    // border:1px solid red;
+    width: 100px;
+    height: 100px;
+    .components-imgresources-colums-img{
+        display: block;
+        // border:1px solid red;
+        width: 100px;
+        height: 100px;
+        .img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+@mixin upload {
+  .ant-upload.ant-upload-select-picture-card:hover {
+    border-color: var(--theme-color-6);
+  }
+  .ant-upload.ant-upload-drag.ant-upload-drag-hover:not(.ant-upload-disabled) {
+    border-color: var(--theme-color-7);
+  }
+  .ant-upload.ant-upload-drag:not(.ant-upload-disabled):hover {
+    border-color: var(--theme-color-5);
+  }
+  .ant-upload.ant-upload-drag p.ant-upload-drag-icon .anticon {
+    color: var(--theme-color-5);
+  }
+}

@@ -1,0 +1,85 @@
+$itemFaceWidthHeight: 220px;
+$itemSpace: 17.95px;
+
+@mixin itemActive {
+  border: 3px solid #eee;
+  border-image: -webkit-linear-gradient(125deg, var(--theme-color-6), #2ed) 20 20;
+  border-image: -moz-linear-gradient(125deg, var(--theme-color-6), #2ed) 20 20;
+  border-image: -o-linear-gradient(125deg, var(--theme-color-6), #2ed) 20 20;
+  border-image: linear-gradient(125deg, var(--theme-color-6), #2ed) 20 20;
+}
+
+@mixin itemBarBg {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 18px;
+  background-color: var(--theme-color-6);
+}
+
+.resource-items-container {
+  .resource-item {
+    width: $itemFaceWidthHeight;
+    margin-top: $itemSpace;
+
+    &:not(:nth-of-type(4n + 1)) {
+      margin-left: $itemSpace;
+    }
+
+    .item-face {
+      transition: all linear 0.2s;
+      width: 100%;
+      height: $itemFaceWidthHeight;
+      border: 1px solid #eee;
+      background-size: cover;
+      background-position: center center;
+      display: flex;
+      justify-content: flex-end;
+      box-sizing: border-box;
+
+      &:hover,
+      &.active {
+        @include itemActive;
+      }
+
+      &:hover:not(.selected, .disable) {
+        cursor: pointer;
+      }
+
+      &.active {
+        .active-number {
+          opacity: 1;
+        }
+      }
+
+      &.selected {
+        .selected-remove-icon {
+          transition: all linear 0.1s;
+          opacity: 0;
+          cursor: pointer;
+          @include itemBarBg;
+        }
+
+        &:hover {
+          .selected-remove-icon {
+            opacity: 1;
+          }
+        }
+      }
+
+      .active-number {
+        opacity: 0;
+        @include itemBarBg;
+      }
+    }
+
+    .item-name {
+      width: 100%;
+    }
+  }
+}

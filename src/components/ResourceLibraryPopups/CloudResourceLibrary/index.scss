@@ -1,0 +1,45 @@
+@import '../../../styles/public/resource-library.scss';
+@import '../../../styles/public/scrollbar.scss';
+
+.cloud-resource-library-container {
+  .tab-box {
+    height: 600px;
+
+    .menus-box,
+    .resource-list {
+      .empty-box {
+        padding-top: 80px;
+        width: 100%;
+      }
+    }
+
+    .menus-box {
+      width: $modalMenuWidth;
+      height: 100%;
+      overflow-y: auto;
+      border-right: 1px solid #eee;
+
+      @include scrollbar(6px, #bfbfbf);
+
+      .clear-all {
+        &:hover {
+          transition: all linear 0.2s;
+          cursor: pointer;
+          color: var(--theme-color-6);
+        }
+      }
+    }
+
+    .list-box {
+      width: calc(100% - $modalMenuWidth);
+      height: 100%;
+      padding-left: 20px;
+
+      .resource-list {
+        margin-top: 10px;
+        height: 560px;
+        overflow-y: auto;
+      }
+    }
+  }
+}

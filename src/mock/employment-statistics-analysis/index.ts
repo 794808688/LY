@@ -1,0 +1,340 @@
+export const percentageOfPeopleChartData = {
+  schoolJobData: [
+    {
+      school: '课工场/大数据',
+      job: 542,
+    },
+    {
+      school: 'ACCP/BCSP',
+      job: 234,
+    },
+    {
+      school: '课工场/JAVA',
+      job: 332,
+    },
+    {
+      school: '课工场/UI',
+      job: 432,
+    },
+    {
+      school: '课工场/WEB',
+      job: 213,
+    },
+    {
+      school: '产教融合/JAVA',
+      job: 342,
+    },
+  ],
+}
+export const percentageOfPeopleTableData = [
+  {
+    number: '1',
+    inc: '阿里巴巴',
+    employment_number: '99',
+  },
+  {
+    number: '2',
+    inc: '字节跳动',
+    employment_number: '96',
+  },
+  {
+    number: '3',
+    inc: '腾讯',
+    employment_number: '95',
+  },
+  {
+    number: '4',
+    inc: '京东',
+    employment_number: '92',
+  },
+  {
+    number: '5',
+    inc: '美团',
+    employment_number: '91',
+  },
+  {
+    number: '6',
+    inc: '百度',
+    employment_number: '88',
+  },
+  {
+    number: '7',
+    inc: '华为',
+    employment_number: '81',
+  },
+  {
+    number: '8',
+    inc: '拼多多',
+    employment_number: '77',
+  },
+  {
+    number: '9',
+    inc: '小米',
+    employment_number: '69',
+  },
+  {
+    number: '10',
+    inc: 'OPPO',
+    employment_number: '58',
+  },
+]
+
+export const employmentStatisticsChartData = {
+  schoolPayData: [
+    {
+      school: '课工场/JAVA',
+      pay: 4500,
+      type: '平均薪资',
+    },
+    {
+      school: '课工场/UI',
+      pay: 4200,
+      type: '平均薪资',
+    },
+    {
+      school: '课工场/大数据',
+      pay: 4000,
+      type: '平均薪资',
+    },
+    {
+      school: '课工场/Web前端',
+      pay: 4600,
+      type: '平均薪资',
+    },
+    {
+      school: 'ACCP/BCUI',
+      pay: 5100,
+      type: '平均薪资',
+    },
+    {
+      school: 'ACCP/BCSP',
+      pay: 5100,
+      type: '平均薪资',
+    },
+    {
+      school: '产教融合/Java',
+      pay: 5200,
+      type: '平均薪资',
+    },
+    {
+      school: 'ACCP/实施',
+      pay: 5300,
+      type: '平均薪资',
+    },
+
+    {
+      school: '课工场/JAVA',
+      pay: 4800,
+      type: '最高薪资',
+    },
+    {
+      school: '课工场/UI',
+      pay: 4600,
+      type: '最高薪资',
+    },
+    {
+      school: '课工场/大数据',
+      pay: 4500,
+      type: '最高薪资',
+    },
+    {
+      school: '课工场/Web前端',
+      pay: 5200,
+      type: '最高薪资',
+    },
+    {
+      school: 'ACCP/BCUI',
+      pay: 6000,
+      type: '最高薪资',
+    },
+    {
+      school: 'ACCP/BCSP',
+      pay: 5400,
+      type: '最高薪资',
+    },
+    {
+      school: '产教融合/Java',
+      pay: 5600,
+      type: '最高薪资',
+    },
+    {
+      school: 'ACCP/实施',
+      pay: 5400,
+      type: '最高薪资',
+    },
+  ],
+  schoolPercentData: [
+    {
+      school: '课工场/Web前端',
+      percent: '52%',
+    },
+    {
+      school: 'ACCP/BCSP',
+      percent: '58%',
+    },
+    {
+      school: 'ACCP/BCUI',
+      percent: '61%',
+    },
+    {
+      school: '课工场/UI',
+      percent: '59%',
+    },
+    {
+      school: '课工场/JAVA',
+      percent: '60%',
+    },
+    {
+      school: 'ACCP/实施',
+      percent: '60%',
+    },
+    {
+      school: '课工场/大数据',
+      percent: '62%',
+    },
+    {
+      school: '产教融合/Java',
+      percent: '62%',
+    },
+  ],
+}
+export const employmentStatisticsTableData = [
+  {
+    id: '101',
+    number: '1',
+    class_name: '课工场/Web前端',
+    employment_teacher: '杨培亮',
+    class_teacher: '李永光',
+    graduation_time: '2022-12-01',
+    class_number: '47',
+    serve_number: '43',
+    employment_number: '40',
+    employment_percent: '99%',
+  },
+  {
+    id: '102',
+    number: '2',
+    class_name: 'ACCP/BCSP',
+    employment_teacher: '李成飞',
+    class_teacher: '王丽雅',
+    graduation_time: '2022-12-02',
+    class_number: '47',
+    serve_number: '43',
+    employment_number: '40',
+    employment_percent: '99%',
+  },
+  {
+    id: '103',
+    number: '3',
+    class_name: 'ACCP/BCUI',
+    employment_teacher: '周贤林',
+    class_teacher: '钱诚飞',
+    graduation_time: '2022-12-03',
+    class_number: '47',
+    serve_number: '43',
+    employment_number: '40',
+    employment_percent: '99%',
+  },
+  {
+    id: '104',
+    number: '4',
+    class_name: '课工场/UI',
+    employment_teacher: '扬程翔',
+    class_teacher: '邓永刚',
+    graduation_time: '2022-12-04',
+    class_number: '47',
+    serve_number: '43',
+    employment_number: '40',
+    employment_percent: '99%',
+  },
+  {
+    id: '105',
+    number: '5',
+    class_name: '课工场/JAVA',
+    employment_teacher: '吴宪达',
+    class_teacher: '李贤民',
+    graduation_time: '2022-12-05',
+    class_number: '47',
+    serve_number: '43',
+    employment_number: '40',
+    employment_percent: '99%',
+  },
+  {
+    id: '106',
+    number: '6',
+    class_name: 'ACCP/实施',
+    employment_teacher: '吴永飞',
+    class_teacher: '张云峰',
+    graduation_time: '2022-12-06',
+    class_number: '47',
+    serve_number: '43',
+    employment_number: '40',
+    employment_percent: '99%',
+  },
+  {
+    id: '107',
+    number: '7',
+    class_name: '课工场/大数据',
+    employment_teacher: '张启亮',
+    class_teacher: '王鹏飞',
+    graduation_time: '2022-12-07',
+    class_number: '47',
+    serve_number: '43',
+    employment_number: '40',
+    employment_percent: '99%',
+  },
+  {
+    id: '108',
+    number: '8',
+    class_name: '产教融合/Java',
+    employment_teacher: '王亮',
+    class_teacher: '李文飞',
+    graduation_time: '2022-12-08',
+    class_number: '47',
+    serve_number: '43',
+    employment_number: '40',
+    employment_percent: '99%',
+  },
+]
+
+export const classItemDetailTableData = [
+  {
+    number: '1',
+    student_name: '李志涛',
+    sex: '1',
+    age: '22',
+    education: '专科',
+    id_card_number: '50010115544745',
+    phone_number: '13965478931',
+    whether_employment: '1',
+    whether_statistics: '0',
+    employment_pay: '8k',
+    employment_inc: '奇点未来',
+  },
+  {
+    number: '2',
+    student_name: '陈勇',
+    sex: '2',
+    age: '22',
+    education: '本科',
+    id_card_number: '50010115544745',
+    phone_number: '13965478932',
+    whether_employment: '1',
+    whether_statistics: '1',
+    employment_pay: '10k',
+    employment_inc: '奇点未来',
+  },
+  {
+    number: '3',
+    student_name: '王晓雅',
+    sex: '1',
+    age: '22',
+    education: '本科',
+    id_card_number: '50010115544745',
+    phone_number: '13965478933',
+    whether_employment: '0',
+    whether_statistics: '1',
+    employment_pay: '9k',
+    employment_inc: '美团',
+  },
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "全部",
+    "type": "all"
+  },
+  {
+    "name": "专题",
+    "type": "special"
+  },
+  {
+    "name": "视频",
+    "type": "wmv|asf|asx|rm|rmvb|mpg|mpeg|mpe|3gp|mov|mp4|m4v|avi|dat|mkv|flv|vob"
+  },
+  {
+    "name": "图片",
+    "type": "webp|bmp|pcx|tif|gif|jpeg|jpg|tga|exif|fpx|svg|psd|cdr|pcd|dxf|ufo|eps|ai|png|hdr|raw|wmf|flic|emf|ico|avif|pps"
+  },
+  {
+    "name": "文档",
+    "type": "txt|doc|docm|docx|dot|dotm|dotx|htm|html|mht|mhtml|odt|pdf|rtf|wps|xml|xps|csv|dbf|dif|prn|slk|xla|xlam|xls|xlsb|xlsm|xlsx|xlt|xltm|xltx|xlw|odp|pot|potm|potx|xlc|css|scss|less|sass|js|ts|jsx|tsx|vue"
+  },
+  {
+    "name": "其它",
+    "type": "typeOther"
+  }
+]

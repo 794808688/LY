@@ -1,0 +1,8 @@
+@mixin spin {
+  .ant-spin {
+    color: var(--theme-color-6);
+  }
+  .ant-spin-dot-item {
+    background-color: var(--theme-color-6);
+  }
+}

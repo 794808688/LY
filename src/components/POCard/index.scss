@@ -1,0 +1,68 @@
+.card-box {
+  position: relative;
+  height: 10vw;
+  border-radius: 1vw;
+  text-align: center;
+  padding: 1.5vw 1vw;
+
+  &:after {
+    opacity: 0;
+    content: '';
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    background-size: 100% 100%;
+    filter: blur(8px) brightness(70%) opacity(0.6);
+    z-index: -1;
+  }
+
+  &:hover:after {
+    opacity: 1;
+  }
+
+  &.round {
+    width: 10vw;
+    border-radius: 15vw;
+  }
+
+  &.rectangle {
+    width: 20vw;
+
+    > .title-box {
+      text-align: left;
+    }
+  }
+
+  > .title-box,
+  > .amount-box {
+    > span {
+      color: #fff;
+    }
+  }
+
+  > .title-box {
+    > span {
+      font-size: 13px;
+      font-weight: 600;
+    }
+  }
+
+  > .amount-box {
+    position: relative;
+    line-height: 4.6vw;
+
+    > span:first-child {
+      font-size: 32px;
+      font-weight: 700;
+    }
+
+    > span:last-child {
+      position: absolute;
+      bottom: 0;
+      font-size: 12px;
+    }
+  }
+}

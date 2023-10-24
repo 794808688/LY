@@ -1,0 +1,39 @@
+@import '../../styles/public/scrollbar.scss';
+
+.resource-library-active-list-container {
+  .active-list {
+    margin-top: 10px;
+    max-height: 260px;
+    overflow-y: auto;
+
+    @include scrollbar(6px, #bfbfbf);
+
+    .active-item {
+      transition: all linear 0.2s;
+      padding: 5px;
+      border: 1px solid #fff;
+
+      &:hover {
+        border: 1px dashed var(--theme-color-5);
+        transform: translateY(-1px);
+      }
+
+      .file-icon-name {
+        width: 90%;
+
+        .name {
+          width: 100%;
+        }
+      }
+
+      .delete-icon {
+        transition: all linear 0.2s;
+
+        &:hover {
+          cursor: pointer;
+          color: rgb(223, 63, 63);
+        }
+      }
+    }
+  }
+}

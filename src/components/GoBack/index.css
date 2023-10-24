@@ -1,0 +1,10 @@
+.go-back-icon-style {
+  margin-left: 10px;
+  font-size: 18px;
+  color: var(--theme-color-6);
+}
+
+.go-back-icon-style:hover {
+  cursor: pointer;
+  color: var(--theme-color-4);
+}

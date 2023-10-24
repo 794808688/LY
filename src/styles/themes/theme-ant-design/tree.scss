@@ -1,0 +1,36 @@
+@mixin tree {
+  .ant-tree.ant-tree-directory .ant-tree-treenode-selected:hover::before,
+  .ant-tree.ant-tree-directory .ant-tree-treenode-selected::before {
+    background: var(--theme-color-6);
+  }
+  .ant-tree-checkbox-wrapper:hover .ant-tree-checkbox-inner,
+  .ant-tree-checkbox:hover .ant-tree-checkbox-inner,
+  .ant-tree-checkbox-input:focus + .ant-tree-checkbox-inner {
+    border-color: var(--theme-color-6);
+  }
+  .ant-tree-checkbox-checked::after {
+    border: 1px solid var(--theme-color-6);
+  }
+  .ant-tree-checkbox-checked .ant-tree-checkbox-inner {
+    background-color: var(--theme-color-6);
+    border-color: var(--theme-color-6);
+  }
+  .ant-tree-checkbox-indeterminate .ant-tree-checkbox-inner::after {
+    background-color: var(--theme-color-6);
+  }
+  .ant-tree-switcher-loading-icon {
+    color: var(--theme-color-6);
+  }
+  .ant-tree .ant-tree-node-content-wrapper.ant-tree-node-selected {
+    background-color: var(--theme-color-2);
+  }
+  .ant-tree-node-content-wrapper[draggable='true'] .ant-tree-drop-indicator {
+    background-color: var(--theme-color-6);
+  }
+  .ant-tree-node-content-wrapper[draggable='true'] .ant-tree-drop-indicator::after {
+    border: 2px solid var(--theme-color-6);
+  }
+  .ant-tree .ant-tree-treenode.drop-container > [draggable] {
+    box-shadow: 0 0 0 2px var(--theme-color-6);
+  }
+}

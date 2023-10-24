@@ -1,0 +1,100 @@
+.vocation-handle-container {
+  $positionTitleHotItemHeight: 42px;
+  $positionBoxWidth: 384px;
+  $boxShadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.1);
+
+  .vocation-handle-box {
+    width: $positionBoxWidth;
+    background-color: #fff;
+    border-radius: 12px 0 0 12px;
+    box-shadow: $boxShadow;
+
+    .vocation-handle-list {
+      position: relative;
+
+      > .front-ul {
+        ul {
+          li {
+            &:first-child {
+              border-radius: 12px 0 0 0;
+            }
+          }
+        }
+      }
+
+      .rear-ul {
+        &.hide {
+          display: none;
+        }
+
+        ul {
+          li {
+            &:last-child {
+              border-radius: 0 0 0 12px;
+            }
+          }
+        }
+      }
+
+      ul {
+        > li {
+          &:hover.active {
+            cursor: pointer;
+            background-color: var(--theme-color-5);
+
+            > .vocation-unfold {
+              display: block;
+            }
+
+            .title,
+            .hot,
+            .icon {
+              span {
+                color: #fff;
+              }
+
+              &.hot {
+                span {
+                  display: inline-block;
+                }
+              }
+            }
+          }
+
+          > .vocation-title-hot {
+            height: $positionTitleHotItemHeight;
+            padding: 0 10px;
+          }
+
+          > .vocation-unfold {
+            position: absolute;
+            display: none;
+            left: $positionBoxWidth;
+            top: 0;
+            width: 650px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: $boxShadow;
+            min-height: 100%;
+            z-index: 1;
+          }
+        }
+      }
+
+      .show-all-hover {
+        height: $positionTitleHotItemHeight;
+        border-top: 1px dashed #eee;
+
+        &.hide {
+          display: none;
+        }
+
+        span {
+          color: var(--theme-color-6);
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+}

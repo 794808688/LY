@@ -1,0 +1,78 @@
+.user-layout-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: auto;
+}
+
+.user-layout-content {
+  flex: 1;
+  padding: 72px 0;
+}
+
+.user-layout-top {
+  text-align: center;
+}
+
+.logo {
+  height: 44px;
+  margin-right: 16px;
+  vertical-align: top;
+}
+
+.user-layout-title {
+  color: #333;
+  font-size: 36px;
+}
+
+.desc {
+  color: #666;
+}
+
+// @media (min-width: 768px) {
+.user-layout-container {
+  background-image: url('../assets/img/loginbg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.user-layout-content {
+  padding: 100px 0 24px;
+}
+
+// }
+
+.user-layout-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #fff;
+  box-shadow: 0 0px 6px 1px #00000015;
+
+  .user-layout-head-left {
+    display: flex;
+
+    .zfzlogo1 {
+      transform: translateX(3px);
+
+      img {
+        height: 45px;
+      }
+    }
+
+    .zfzlogo2 {
+      transform: translateY(2px);
+
+      img {
+        height: 45px;
+      }
+    }
+  }
+
+  .user-layout-head-right {
+    font-size: 30px;
+    font-weight: bold;
+  }
+}

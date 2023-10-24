@@ -1,0 +1,12 @@
+@mixin form {
+  .ant-form-item-has-error .ant-transfer-list-search:not([disabled]):hover {
+    border-color: var(--theme-color-5);
+  }
+  .ant-form-item-has-error .ant-transfer-list-search:not([disabled]):focus {
+    border-color: var(--theme-color-5);
+    box-shadow: 0 0 0 2px var(--theme-color-6-opacity-2);
+  }
+  .ant-form-item-is-validating.ant-form-item-has-feedback .ant-form-item-children-icon {
+    color: var(--theme-color-6);
+  }
+}

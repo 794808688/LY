@@ -1,0 +1,9 @@
+.drop-over-downward {
+  transform: translateY(-3px);
+  border-bottom: 3px dashed var(--theme-color-6) !important;
+}
+
+.drop-over-upward {
+  transform: translateY(3px);
+  border-top: 3px dashed var(--theme-color-6) !important;
+}

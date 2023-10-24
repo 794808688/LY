@@ -1,0 +1,41 @@
+@import './spin.scss';
+@import './menu.scss';
+@import './input.scss';
+@import './input-number.scss';
+@import './select.scss';
+@import './button.scss';
+@import './table.scss';
+@import './switch.scss';
+@import './checkbox.scss';
+@import './steps.scss';
+@import './transfer.scss';
+@import './tabs.scss';
+@import './pagination.scss';
+@import './date-picker.scss';
+@import './form.scss';
+@import './tree.scss';
+@import './cascader.scss';
+@import './upload.scss';
+@import './radio.scss';
+
+html > body {
+  @include spin;
+  @include menu;
+  @include input;
+  @include input-number;
+  @include select;
+  @include button;
+  @include table;
+  @include switch;
+  @include checkbox;
+  @include steps;
+  @include transfer;
+  @include tabs;
+  @include pagination;
+  @include date-picker;
+  @include form;
+  @include tree;
+  @include cascader;
+  @include upload;
+  @include radio;
+}

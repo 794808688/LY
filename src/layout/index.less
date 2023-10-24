@@ -1,0 +1,61 @@
+@import '../styles/var.less';
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  &--side-bar {
+    flex-direction: row;
+  }
+
+  &__main {
+    position: relative;
+    flex: 1;
+    height: 100vh;
+    overflow-y: scroll;
+  }
+
+  &__container {
+    padding: 20px;
+
+    &--fix {
+      padding-top: @headerHeight + 20px;
+    }
+
+    &--fixed {
+      max-width: 1250px;
+      margin: 0 auto;
+    }
+  }
+
+  &--weak {
+    filter: invert(80%);
+  }
+
+  &__route {
+    position: relative;
+
+    &-enter {
+      transform: translate(20px, 0);
+      opacity: 0;
+    }
+
+    &-enter-active {
+      transform: translate(0, 0);
+      opacity: 1;
+      transition: all 300ms;
+    }
+
+    &-exit {
+      transform: translate(0, 0);
+      opacity: 1;
+    }
+
+    &-exit-active {
+      transform: translate(-20px, 0);
+      opacity: 0;
+      transition: all 300ms;
+    }
+  }
+}

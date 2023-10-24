@@ -1,0 +1,48 @@
+.StoreSwiper{
+    .storeswiper-table{
+        .ant-input-search > .ant-input-group > .ant-input-group-addon:last-child .ant-input-search-button{
+            background-color: #bbb;
+            border-color: #bbb;
+        }
+    }
+}
+.columns-render-img{
+    // border: 1px solid red;
+    width: 40px;
+    height: 40px;
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.ant-table .ant-table-thead{
+    background-color:red ;
+}
+
+.StoreSwiper-Modal{
+
+    .StoreSwiper-Modal-upload{
+        // border: 1px solid red;
+        position: relative;
+        .StoreSwiper-Modal-upload-ImgResources{
+            position: absolute;
+            left: 90px;
+            // border: 1px solid red;
+        }
+
+    }
+    .StoreSwiper-Modal-upload-list-inline{
+        // border:1px solid red;
+        float: left;
+        width: 300px;
+        margin-right: 8px;
+    
+    
+        .StoreSwiper-Modal-upload-list-inline [class*='-StoreSwiper-Modal-upload-list-inline'] .ant-upload-list-item {
+            float: right;
+          }
+    }
+}
+

@@ -1,0 +1,19 @@
+@mixin switch {
+  .ant-switch:focus {
+    // 打开波纹色
+    border-color: var(--theme-color-6);
+  }
+  .ant-switch {
+    // 关闭波纹色
+    border-color: var(--theme-color-6);
+  }
+  .ant-switch-checked:focus {
+    box-shadow: 0 0 0 2px var(--theme-color-6-opacity-2);
+  }
+  .ant-switch-checked {
+    background-color: var(--theme-color-6);
+  }
+  .ant-switch-checked .ant-switch-loading-icon {
+    color: var(--theme-color-6);
+  }
+}

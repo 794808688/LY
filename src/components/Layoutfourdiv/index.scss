@@ -1,0 +1,110 @@
+.components-layoufourdiv {
+  box-sizing: border-box;
+
+  .ant-layout-footer {
+    padding: 0;
+  }
+
+  .ant-layout-header {
+    padding: 0;
+  }
+
+  .div {
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .2);
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .PageWrap {
+
+    .layoufourdiv-PageWrap {
+      .ant-divider {
+        margin: 0;
+      }
+
+      // border:1px solid red;
+      height: 85vh;
+
+      .layout {
+        height: 100%;
+        width: 100%;
+        // border:1px solid red;
+
+        .layout-sider {
+          // border:1px solid red;
+          background-color: white;
+          width: 400PX !important;
+          flex: 0 0 30% !important;
+          min-width: 400px !important;
+          max-width: 500px !important;
+
+          .layout-sider-layout {
+            height: 100%;
+
+            // width: 400px;
+            // border:1px solid red;
+            .layout-sider-layout-header {
+              background-color: white;
+            }
+
+            .layout-sider-layout-content {
+              background-color: white;
+              overflow: auto;
+
+              // border:1px solid red;
+              &::-webkit-scrollbar {
+                width: 0;
+              }
+            }
+
+            .layout-sider-layout-footer {
+              background-color: white;
+            }
+          }
+        }
+
+        .layout-layout {
+          background-color: white;
+          // width: 830px;
+          // border:1px solid red;
+          min-width: 400px !important;
+
+          .layout-layout-header {
+            background-color: white;
+          }
+
+          .layout-layout-content {
+            background-color: white;
+            overflow: auto;
+
+            &::-webkit-scrollbar {
+              width: 0;
+            }
+          }
+
+          .layout-layout-footer {
+            background-color: white;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+
+.ant-layout-content {
+
+  .ant-menu-inline .ant-menu-selected::after,
+  .ant-menu-inline .ant-menu-item-selected::after {
+    display: none;
+  }
+
+
+  .ant-menu-item .ant-menu-item-icon+span,
+  .ant-menu-submenu-title .ant-menu-item-icon+span,
+  .ant-menu-item .anticon+span,
+  .ant-menu-submenu-title .anticon+span {
+    margin-left: 5px;
+  }
+}

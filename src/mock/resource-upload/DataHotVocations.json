@@ -1,0 +1,1126 @@
+{
+  "code": 0,
+  "message": "Success",
+  "zpData": [
+    {
+      "code": 100000,
+      "name": "技术",
+      "tip": null,
+      "subLevelModelList": [
+        {
+          "code": 100101,
+          "name": "Java",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 100103,
+          "name": "PHP",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 100901,
+          "name": "web前端",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 100120,
+          "name": "算法工程师",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        }
+      ]
+    },
+    {
+      "code": 110000,
+      "name": "产品",
+      "tip": null,
+      "subLevelModelList": [
+        {
+          "code": 110101,
+          "name": "产品经理",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 110302,
+          "name": "产品总监/VP",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 1,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 110105,
+          "name": "数据产品经理",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 1,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        }
+      ]
+    },
+    {
+      "code": 100000,
+      "name": "技术",
+      "tip": null,
+      "subLevelModelList": [
+        {
+          "code": 100101,
+          "name": "Java",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 100103,
+          "name": "PHP",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 100901,
+          "name": "web前端",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 100120,
+          "name": "算法工程师",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        }
+      ]
+    },
+    {
+      "code": 110000,
+      "name": "产品",
+      "tip": null,
+      "subLevelModelList": [
+        {
+          "code": 110101,
+          "name": "产品经理",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 110302,
+          "name": "产品总监/VP",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 1,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 110105,
+          "name": "数据产品经理",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 1,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        }
+      ]
+    },
+    {
+      "code": 100000,
+      "name": "技术",
+      "tip": null,
+      "subLevelModelList": [
+        {
+          "code": 100101,
+          "name": "Java",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 100103,
+          "name": "PHP",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 100901,
+          "name": "web前端",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 100120,
+          "name": "算法工程师",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        }
+      ]
+    },
+    {
+      "code": 110000,
+      "name": "产品",
+      "tip": null,
+      "subLevelModelList": [
+        {
+          "code": 110101,
+          "name": "产品经理",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 110302,
+          "name": "产品总监/VP",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 1,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 110105,
+          "name": "数据产品经理",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 1,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        }
+      ]
+    },
+    {
+      "code": 100000,
+      "name": "技术",
+      "tip": null,
+      "subLevelModelList": [
+        {
+          "code": 100101,
+          "name": "Java",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 100103,
+          "name": "PHP",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 100901,
+          "name": "web前端",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 100120,
+          "name": "算法工程师",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        }
+      ]
+    },
+    {
+      "code": 110000,
+      "name": "产品",
+      "tip": null,
+      "subLevelModelList": [
+        {
+          "code": 110101,
+          "name": "产品经理",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 110302,
+          "name": "产品总监/VP",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 1,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 110105,
+          "name": "数据产品经理",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 1,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        }
+      ]
+    },
+    {
+      "code": 100000,
+      "name": "技术",
+      "tip": null,
+      "subLevelModelList": [
+        {
+          "code": 100101,
+          "name": "Java",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 100103,
+          "name": "PHP",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 100901,
+          "name": "web前端",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 100120,
+          "name": "算法工程师",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        }
+      ]
+    },
+    {
+      "code": 110000,
+      "name": "产品",
+      "tip": null,
+      "subLevelModelList": [
+        {
+          "code": 110101,
+          "name": "产品经理",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 110302,
+          "name": "产品总监/VP",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 1,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 110105,
+          "name": "数据产品经理",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 1,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        }
+      ]
+    },
+    {
+      "code": 100000,
+      "name": "技术",
+      "tip": null,
+      "subLevelModelList": [
+        {
+          "code": 100101,
+          "name": "Java",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 100103,
+          "name": "PHP",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 100901,
+          "name": "web前端",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 100120,
+          "name": "算法工程师",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        }
+      ]
+    },
+    {
+      "code": 110000,
+      "name": "产品",
+      "tip": null,
+      "subLevelModelList": [
+        {
+          "code": 110101,
+          "name": "产品经理",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 110302,
+          "name": "产品总监/VP",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 1,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 110105,
+          "name": "数据产品经理",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 1,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        }
+      ]
+    },
+    {
+      "code": 100000,
+      "name": "技术",
+      "tip": null,
+      "subLevelModelList": [
+        {
+          "code": 100101,
+          "name": "Java",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 100103,
+          "name": "PHP",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 100901,
+          "name": "web前端",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 100120,
+          "name": "算法工程师",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        }
+      ]
+    },
+    {
+      "code": 110000,
+      "name": "产品",
+      "tip": null,
+      "subLevelModelList": [
+        {
+          "code": 110101,
+          "name": "产品经理",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 110302,
+          "name": "产品总监/VP",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 1,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 110105,
+          "name": "数据产品经理",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 1,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        }
+      ]
+    },
+    {
+      "code": 100000,
+      "name": "技术",
+      "tip": null,
+      "subLevelModelList": [
+        {
+          "code": 100101,
+          "name": "Java",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 100103,
+          "name": "PHP",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 100901,
+          "name": "web前端",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 100120,
+          "name": "算法工程师",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        }
+      ]
+    },
+    {
+      "code": 110000,
+      "name": "产品",
+      "tip": null,
+      "subLevelModelList": [
+        {
+          "code": 110101,
+          "name": "产品经理",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 110302,
+          "name": "产品总监/VP",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 1,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 110105,
+          "name": "数据产品经理",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 1,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        }
+      ]
+    },
+    {
+      "code": 100000,
+      "name": "技术",
+      "tip": null,
+      "subLevelModelList": [
+        {
+          "code": 100101,
+          "name": "Java",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 100103,
+          "name": "PHP",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 100901,
+          "name": "web前端",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 100120,
+          "name": "算法工程师",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        }
+      ]
+    },
+    {
+      "code": 110000,
+      "name": "产品",
+      "tip": null,
+      "subLevelModelList": [
+        {
+          "code": 110101,
+          "name": "产品经理",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 110302,
+          "name": "产品总监/VP",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 1,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 110105,
+          "name": "数据产品经理",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 1,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        }
+      ]
+    },
+    {
+      "code": 100000,
+      "name": "技术",
+      "tip": null,
+      "subLevelModelList": [
+        {
+          "code": 100101,
+          "name": "Java",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 100103,
+          "name": "PHP",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 100901,
+          "name": "web前端",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 100120,
+          "name": "算法工程师",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        }
+      ]
+    },
+    {
+      "code": 110000,
+      "name": "产品",
+      "tip": null,
+      "subLevelModelList": [
+        {
+          "code": 110101,
+          "name": "产品经理",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 3,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 110302,
+          "name": "产品总监/VP",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 1,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        },
+        {
+          "code": 110105,
+          "name": "数据产品经理",
+          "tip": null,
+          "subLevelModelList": null,
+          "firstChar": null,
+          "pinyin": null,
+          "rank": 0,
+          "mark": 11,
+          "positionType": 1,
+          "cityType": 0,
+          "capital": 0,
+          "color": null
+        }
+      ]
+    }
+  ]
+}

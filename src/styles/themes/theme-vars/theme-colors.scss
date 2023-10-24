@@ -1,0 +1,84 @@
+:root {
+  /* 颜色切换时间 */
+  --theme-switch-time: 0.4s;
+  /* 1.佛晓蓝 */
+  --blue-1: #e6f7ff;
+  --blue-2: #bae7ff;
+  --blue-3: #91d5ff;
+  --blue-4: #69c0ff;
+  --blue-5: #40a9ff;
+  --blue-6: #1890ff;
+  --blue-6-opacity-1: rgba(24, 144, 255, 0.1);
+  --blue-6-opacity-2: rgba(24, 144, 255, 0.2);
+  --blue-6-opacity-005: rgba(24, 143, 255, 0.05);
+  --blue-6-opacity-01: rgba(24, 143, 255, 0.1);
+  --blue-6-opacity-02: rgba(24, 143, 255, 0.2);
+  --blue-7: #096dd9;
+  --blue-8: #0050b3;
+  --blue-9: #003a8c;
+  --blue-10: #002766;
+  /* 2.青柠 */
+  --lime-1: #fcffe6;
+  --lime-2: #f4ffb8;
+  --lime-3: #eaff8f;
+  --lime-4: #d3f261;
+  --lime-5: #bae637;
+  --lime-6: #a0d911;
+  --lime-6-opacity-1: rgba(160, 217, 17, 0.1);
+  --lime-6-opacity-2: rgba(160, 217, 17, 0.2);
+  --lime-6-opacity-005: rgba(160, 217, 17, 0.05);
+  --lime-6-opacity-01: rgba(160, 217, 17, 0.1);
+  --lime-6-opacity-02: rgba(160, 217, 17, 0.2);
+  --lime-7: #7cb305;
+  --lime-8: #5b8c00;
+  --lime-9: #3f6600;
+  --lime-10: #254000;
+  /* 3.日暮 */
+  --orange-1: #fff7e6;
+  --orange-2: #ffe7ba;
+  --orange-3: #ffd591;
+  --orange-4: #ffc069;
+  --orange-5: #ffa940;
+  --orange-6: #fa8c16;
+  --orange-6-opacity-1: rgba(250, 140, 22, 0.1);
+  --orange-6-opacity-2: rgba(250, 140, 22, 0.2);
+  --orange-6-opacity-005: rgba(250, 140, 22, 0.05);
+  --orange-6-opacity-01: rgba(250, 140, 22, 0.1);
+  --orange-6-opacity-02: rgba(250, 140, 22, 0.2);
+  --orange-7: #d46b08;
+  --orange-8: #ad4e00;
+  --orange-9: #873800;
+  --orange-10: #612500;
+  /* 4.酱紫 */
+  --purple-1: #f9f0ff;
+  --purple-2: #efdbff;
+  --purple-3: #d3adf7;
+  --purple-4: #b37feb;
+  --purple-5: #9254de;
+  --purple-6: #722ed1;
+  --purple-6-opacity-1: rgba(114, 46, 209, 0.1);
+  --purple-6-opacity-2: rgba(114, 46, 209, 0.2);
+  --purple-6-opacity-005: rgba(114, 46, 209, 0.05);
+  --purple-6-opacity-01: rgba(114, 46, 209, 0.1);
+  --purple-6-opacity-02: rgba(114, 46, 209, 0.2);
+  --purple-7: #531dab;
+  --purple-8: #391085;
+  --purple-9: #22075e;
+  --purple-10: #120338;
+  /* 5.法式洋红 */
+  --megenta-1: #fff0f6;
+  --megenta-2: #ffd6e7;
+  --megenta-3: #ffadd2;
+  --megenta-4: #ff85c0;
+  --megenta-5: #f759ab;
+  --megenta-6: #eb2f96;
+  --megenta-6-opacity-1: rgba(235, 47, 150, 0.1);
+  --megenta-6-opacity-2: rgba(235, 47, 150, 0.2);
+  --megenta-6-opacity-005: rgba(235, 47, 150, 0.05);
+  --megenta-6-opacity-01: rgba(235, 47, 150, 0.1);
+  --megenta-6-opacity-02: rgba(235, 47, 150, 0.2);
+  --megenta-7: #c41d7f;
+  --megenta-8: #9e1068;
+  --megenta-9: #780650;
+  --megenta-10: #520339;
+}

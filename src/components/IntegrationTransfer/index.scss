@@ -1,0 +1,27 @@
+.integrationTransfer {
+    .ant-transfer {
+        .ant-transfer-list {
+            // height: 360px;
+            height: 500px;
+            flex-grow: 1;
+            // border-radius: 2px 2px 0 0;
+        }
+    }
+
+    .integrationTransfer-pagination {
+        display: flex;
+
+        .integrationTransfer-pagination-item {
+            flex-grow: 1;
+            text-align: right;
+            border: 1px solid #d9d9d9;
+            border-top: 0;
+            border-radius: 0 0 2px 2px;
+            padding: 8px 0;
+        }
+    }
+
+    .ant-transfer-list-content-item-remove {
+        display: none !important;
+    }
+}

@@ -1,0 +1,21 @@
+@mixin transfer {
+  .ant-transfer-list-content-item-remove {
+    color: var(--theme-color-6);
+  }
+  .ant-transfer-list-content-item-remove:focus,
+  .ant-transfer-list-content-item-remove:hover {
+    color: var(--theme-color-5);
+  }
+  .ant-transfer-list-content-item-remove:active {
+    color: var(--theme-color-7);
+  }
+  .ant-transfer-list-content-item-remove:hover {
+    color: var(--theme-color-5);
+  }
+  .ant-transfer-list-content-item:not(.ant-transfer-list-content-item-disabled).ant-transfer-list-content-item-checked:hover {
+    background-color: var(--theme-color-2);
+  }
+  .ant-transfer-list-content-item-checked {
+    background-color: var(--theme-color-1);
+  }
+}

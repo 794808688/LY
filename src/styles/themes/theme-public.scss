@@ -1,0 +1,62 @@
+[data-theme] {
+  // hover时间
+  --hover-time: 0.2s;
+  --transition-time: 0.2s;
+
+  a {
+    transition: all var(--theme-switch-time);
+    color: var(--theme-color-6);
+
+    &:hover {
+      color: var(--theme-color-4);
+    }
+  }
+
+  .theme-text-color-box {
+    a,
+    span {
+      transition: all var(--theme-switch-time);
+      color: var(--theme-color-6);
+
+      &:hover {
+        color: var(--theme-color-4);
+      }
+    }
+  }
+
+  .theme-text-color {
+    a,
+    span {
+      transition: all linear var(--transition-time);
+      color: #333;
+
+      &:hover {
+        cursor: pointer;
+        color: var(--theme-color-6);
+      }
+    }
+  }
+
+  .color-hover-theme-6 {
+    color: #333;
+    transition: all var(--theme-switch-time);
+
+    &:hover {
+      color: var(--theme-color-6);
+    }
+  }
+
+  .color-hover-theme-8 {
+    color: #333;
+    transition: all var(--theme-switch-time);
+
+    &:hover {
+      color: var(--theme-color-8);
+    }
+  }
+
+  .layout__settings {
+    transition: var(--theme-switch-time);
+    background: var(--theme-color-6);
+  }
+}

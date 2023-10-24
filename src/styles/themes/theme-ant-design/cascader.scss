@@ -1,0 +1,13 @@
+@mixin cascader {
+  .ant-cascader-picker:focus .ant-cascader-input {
+    border-color: var(--theme-color-5);
+    box-shadow: 0 0 0 2px var(--theme-color-6-opacity-2);
+  }
+  .ant-cascader-picker-label:hover + .ant-cascader-input:not(.ant-cascader-picker-disabled .ant-cascader-picker-label:hover + .ant-cascader-input) {
+    border-color: var(--theme-color-5);
+  }
+  .ant-cascader-menu-item-active:not(.ant-cascader-menu-item-disabled),
+  .ant-cascader-menu-item-active:not(.ant-cascader-menu-item-disabled):hover {
+    background-color: var(--theme-color-1);
+  }
+}

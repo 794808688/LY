@@ -1,0 +1,32 @@
+@mixin tabs {
+  .ant-tabs-card > .ant-tabs-nav .ant-tabs-tab-active,
+  .ant-tabs-card > div > .ant-tabs-nav .ant-tabs-tab-active {
+    color: var(--theme-color-6);
+  }
+  .ant-tabs > .ant-tabs-nav .ant-tabs-nav-add:hover,
+  .ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-add:hover {
+    color: var(--theme-color-5);
+  }
+  .ant-tabs > .ant-tabs-nav .ant-tabs-nav-add:active,
+  .ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-add:active,
+  .ant-tabs > .ant-tabs-nav .ant-tabs-nav-add:focus,
+  .ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-add:focus {
+    color: var(--theme-color-7);
+  }
+  .ant-tabs-ink-bar {
+    background: var(--theme-color-6);
+  }
+  .ant-tabs-tab-btn:focus,
+  .ant-tabs-tab-remove:focus,
+  .ant-tabs-tab-btn:active,
+  .ant-tabs-tab-remove:active {
+    color: var(--theme-color-7);
+  }
+  .ant-tabs-tab:hover {
+    color: var(--theme-color-5);
+  }
+  .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: var(--theme-color-6);
+    text-shadow: 0 0 0.25px currentColor;
+  }
+}

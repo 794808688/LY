@@ -1,0 +1,11 @@
+.more-text {
+  transition: 0.8s;
+  font-size: 14px;
+  color: rgb(167, 167, 167);
+
+  &:hover {
+    transition: 0.8s;
+    cursor: pointer;
+    color: #666;
+  }
+}

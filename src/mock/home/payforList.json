@@ -1,0 +1,38 @@
+[
+    {
+        "value": "0",
+        "label": "薪资要求不限"
+    },
+    {
+        "value": "1",
+        "label": "3K以下"
+    },
+    {
+        "value": "2",
+        "label": "3-5K"
+    },
+    {
+        "value": "3",
+        "label": "5-10K"
+    },
+    {
+        "value": "4",
+        "label": "10-15K"
+    },
+    {
+        "value": "5",
+        "label": "15-20K"
+    },
+    {
+        "value": "6",
+        "label": "20-30K"
+    },
+    {
+        "value": "7",
+        "label": "30-50K"
+    },
+    {
+        "value": "8",
+        "label": "50K以上"
+    }
+]

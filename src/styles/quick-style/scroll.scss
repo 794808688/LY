@@ -1,0 +1,8 @@
+.overflow-x-auto {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.overflow-y-auto {
+  overflow-y: auto;// 超过高度会出现滚动条
+  -webkit-overflow-scrolling: touch;
+}

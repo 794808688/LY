@@ -1,0 +1,191 @@
+@tailwind base;
+
+@layer base {
+  svg {
+    @apply align-baseline;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  /* font: inherit; */
+  /* vertical-align: baseline; */
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.disabled-link {
+  pointer-events: none;
+  filter: alpha(opacity=50);
+  /*IE滤镜，透明度50%*/
+  -moz-opacity: 0.5;
+  /*Firefox私有，透明度50%*/
+  opacity: 0.5;
+  /*其他，透明度50%*/
+}
+
+/* ant表格样式 */
+.ant-table-thead>tr>th {
+  font-size: 13px !important;
+  font-weight: bold !important;
+  background: #f8f8f9 !important;
+}
+
+.ant-table-tbody>tr:hover:not(.ant-table-expanded-row)>td,
+.ant-table-row-hover,
+.ant-table-row-hover>td {
+  background-color: #ededed !important;
+}
+
+.ant-table-fixed .ant-table-row-hover,
+.ant-table-row-hover>td {
+  background-color: #ededed !important;
+}
+
+.fontsize {
+  font-size: 13px !important;
+}
+
+.ant-divider {
+  background-color: rgb(187, 187, 187);
+}

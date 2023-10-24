@@ -1,0 +1,194 @@
+.home {
+  .home-title {
+    font-size: 16px;
+    color: #444;
+    font-weight: 600;
+  }
+
+  .home-numberofpeople {
+    // border: 1px solid red;
+    box-sizing: border-box;
+    margin-top: 20px;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content:space-between;
+    .numberofpeople-chunk {
+      // border: 1px solid red;
+      min-width: 180px;
+      padding: 20px;
+      width: 25%;
+      height: 100%;
+      .chunk {
+        display: flex;
+        align-items: center;
+        // border: 1px solid red;
+        .icon {
+          width: 60px;
+          height: 60px;
+          border-radius: 8px;
+          background-color: #f05050;
+          text-align: center;
+          line-height: 60px;
+          font-size: 30px;
+          color: white;
+        }
+        .text {
+          margin-left: 10px;
+          .number {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 10px;
+          }
+          .title {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+  .home-level {
+    // border:1px solid red;
+    width: 100%;
+    // height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 13px;
+    padding: 10px 5px;
+
+    .level-chunk {
+      // border:1px solid red;
+      width: 20%;
+      height: 90px;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+
+      .level-text{
+        // border:1px solid red;
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+      }
+    }
+    img {
+      // border:1px solid red;
+      width: 50px;
+      // height: 50px;
+    }
+  }
+  .home-data-analysis {
+    // border: 1px solid red;
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+
+    .home-charts {
+      padding:20px;
+      width: 90%;
+      height: 100%;
+    }
+
+    .home-recent {
+      width: 32%;
+      // border: 1px solid red;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      .recent-chunk {
+        border-bottom: 2px solid;
+        border-image: linear-gradient(to right, #28bb9c 33%, #f5f5f5 30%) 2;
+        width: 45%;
+        height: 33%;
+        padding: 20px 10px;
+        display: flex;
+        overflow: hidden;
+        align-items: flex-start;
+        .recent-chunk-icon {
+          font-size: 30px;
+          color: #28bb9c;
+          height: 40px;
+          line-height: 40px;
+          // border: 1px solid red;
+        }
+        .recent-chunk-text {
+          // border: 1px solid red;
+          height: 40px;
+          padding-left: 10px;
+          line-height: 20px;
+          .num {
+            font-weight: 600;
+            font-size: 18px;
+          }
+          .text {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+
+  .home-statistics {
+    // border: 1px solid red;
+    width: 100%;
+    height: 180px;
+    margin-top: 20px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    .statistics-chunk {
+      // border: 1px solid red;
+      color: white;
+      border-radius: 6px;
+      width: 25%;
+      height: 100%;
+      padding: 20px;
+      overflow: hidden;
+      .statistics-title {
+        font-size: 13px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // border: 1px solid red;
+        .title-right {
+          padding: 2px 3px;
+          background: black;
+          font-weight: 600;
+        }
+      }
+
+      .statistics-number {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        .num {
+          font-size: 30px;
+          line-height: 30px;
+        }
+        .text {
+          font-size: 13px;
+          line-height: 30px;
+
+          .text-span {
+            margin-left: 5px;
+          }
+        }
+      }
+    }
+
+    .bg-blue {
+      background: linear-gradient(to bottom, #0089db, #0073b7);
+    }
+    .bg-aqua {
+      background: linear-gradient(to bottom, #52a7e0, #3498db);
+    }
+    .bg-purple {
+      background: linear-gradient(to bottom, #9491c4, #605ca8);
+    }
+    .bg-green {
+      background: linear-gradient(to bottom, #1cdcb6, #18bc9c);
+    }
+  }
+}

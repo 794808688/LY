@@ -1,0 +1,17 @@
+@mixin rm {
+  --theme-color-1: var(--orange-1);
+  --theme-color-2: var(--orange-2);
+  --theme-color-3: var(--orange-3);
+  --theme-color-4: var(--orange-4);
+  --theme-color-5: var(--orange-5);
+  --theme-color-6: var(--orange-6);
+  --theme-color-6-opacity-1: var(--orange-6-opacity-1);
+  --theme-color-6-opacity-2: var(--orange-6-opacity-2);
+  --theme-color-6-opacity-005: var(--orange-6-opacity-005);
+  --theme-color-6-opacity-01: var(--orange-6-opacity-01);
+  --theme-color-6-opacity-02: var(--orange-6-opacity-02);
+  --theme-color-7: var(--orange-7);
+  --theme-color-8: var(--orange-8);
+  --theme-color-9: var(--orange-9);
+  --theme-color-10: var(--orange-10);
+}

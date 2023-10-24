@@ -1,0 +1,28 @@
+.approve-disapprove-container {
+  .approve-disapprove {
+    .approve,
+    .oppose {
+      .ant-btn {
+        transition: all linear var(--transition-time);
+        border-color: var(--theme-color-6-opacity-01);
+        background-color: var(--theme-color-6-opacity-01);
+        color: var(--theme-color-6);
+      }
+
+      &:hover {
+        .ant-btn {
+          border-color: var(--theme-color-6-opacity-02);
+          background-color: var(--theme-color-6-opacity-02);
+        }
+      }
+
+      &.active {
+        .ant-btn {
+          border-color: var(--theme-color-6);
+          background-color: var(--theme-color-6);
+          color: #fff;
+        }
+      }
+    }
+  }
+}

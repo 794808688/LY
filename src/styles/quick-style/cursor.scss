@@ -1,0 +1,14 @@
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-move {
+  cursor: move;
+}
+
+.cursor-pointer-hover {
+  cursor: pointer;
+  &:hover{
+    color:var(--theme-color-6)
+  }
+}

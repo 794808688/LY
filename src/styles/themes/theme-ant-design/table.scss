@@ -1,0 +1,25 @@
+@mixin table {
+  .ant-table-tbody > tr.ant-table-row-selected > td {
+    background: var(--theme-color-1);
+  }
+  .ant-table-tbody > tr.ant-table-row-selected:hover > td {
+    background: var(--theme-color-1);
+  }
+  .ant-table-column-sorter-up.active,
+  .ant-table-column-sorter-down.active {
+    color: var(--theme-color-6);
+  }
+  .ant-table-filter-trigger.active {
+    color: var(--theme-color-6);
+  }
+  .ant-table-row-expand-icon {
+    color: var(--theme-color-6);
+  }
+  .ant-table-row-expand-icon:focus,
+  .ant-table-row-expand-icon:hover {
+    color: var(--theme-color-5);
+  }
+  .ant-table-row-expand-icon:active {
+    color: var(--theme-color-7);
+  }
+}
