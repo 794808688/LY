@@ -64,7 +64,7 @@ export interface Config {
 
 const AdminConfig: Config = {
   // react-router basename
-  BASENAME: "/qb-admin",
+  BASENAME: "/main-admin",
 
   //首页
   HOME: "/platform/account",
@@ -144,10 +144,10 @@ const AdminConfig: Config = {
   // 本地存储token 的key
   TOKEN_KEY: "Admin_Token_key",
 
-  USER_KEY: "Admin-user-zfzqb",
+  USER_KEY: "Admin-user-zfzmain",
 
   // 项目名称
-  title: "造风者题库管理",
+  title: "主控台",
 
   // logo
   logo: "/qb-admin/logo.png",

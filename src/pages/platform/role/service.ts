@@ -7,32 +7,20 @@ import AdminConfig from '~/config';
  */
 export function apiGetRole(params?: any) {
   return request({
-    method: 'POST',
-    url: AdminConfig.API_URL + AdminConfig.LOCAL_SHOP + '/getRoleList',
+    method: 'GET',
+    url: AdminConfig.API_URL + '/uapi/getRoleList',
     params,
   });
 }
 
 /**
- * @description: 新建角色
+ * @description: 保存角色
  * @return {*}
  */
-export function apiaddRole(params?: any) {
+export function apisaveRole(params?: any) {
   return request({
     method: 'POST',
-    url: AdminConfig.API_URL + AdminConfig.LOCAL_SHOP + '/addRole',
-    params,
-  });
-}
-
-/**
- * @description: 修改角色
- * @return {*}
- */
-export function apimodRole(params?: any) {
-  return request({
-    method: 'POST',
-    url: AdminConfig.API_URL + AdminConfig.LOCAL_SHOP + '/updateRole',
+    url: AdminConfig.API_URL + '/uapi/saveRole',
     params,
   });
 }

@@ -27,7 +27,7 @@ export default defineConfig({
     },
   },
 
-  base: "/qb-admin",
+  base: "/main-admin",
 
   resolve: {
     alias: {},

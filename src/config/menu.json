@@ -32,48 +32,15 @@
           "parentId": 10100,
           "level": 2,
           "auth": "0"
-        },
-        {
-          "id": 10103,
-          "name": "公告管理",
-          "url": "/platform/advertising-notice",
-          "icon": "",
-          "desc": "公告管理",
-          "sort": 5,
-          "parentId": 10100,
-          "level": 2,
-          "auth": "0"
-        },
-        {
-          "id": 10104,
-          "name": "首页轮播管理",
-          "url": "/platform/storeswiper",
-          "icon": "",
-          "desc": "首页轮播管理",
-          "sort": 5,
-          "parentId": 10100,
-          "level": 2,
-          "auth": "0"
-        },
-        {
-          "id": 10105,
-          "name": "用户资源维护",
-          "url": "/platform/userResourceAdministration",
-          "icon": "",
-          "desc": "用户资源维护",
-          "sort": 5,
-          "parentId": 10100,
-          "level": 2,
-          "auth": "0"
         }
       ]
     },
     {
-      "desc": "基本信息维护",
+      "desc": "应用维护",
       "icon": "ProfileOutlined",
       "id": 10200,
       "level": 1,
-      "name": "基本信息维护",
+      "name": "应用维护",
       "parentId": 0,
       "sort": 1,
       "url": "/basic-information",
@@ -81,10 +48,10 @@
       "children": [
         {
           "id": 10201,
-          "name": "学科（职业）维护",
+          "name": "应用管理",
           "url": "/basic-information/work-grade",
           "icon": "",
-          "desc": "学科（职业）维护",
+          "desc": "应用管理",
           "sort": 1,
           "parentId": 10200,
           "level": 2,
@@ -92,71 +59,12 @@
         },
         {
           "id": 10203,
-          "name": "真题出题规则",
+          "name": "模块管理",
           "url": "/basic-information/conditions-maintenance",
           "icon": "",
-          "desc": "真题出题规则",
+          "desc": "模块管理",
           "sort": 1,
           "parentId": 10200,
-          "level": 2,
-          "auth": "0"
-        },
-        {
-          "id": 10204,
-          "name": "题目类型维护",
-          "url": "/basic-information/questiontype",
-          "icon": "",
-          "desc": "题目类型维护",
-          "sort": 1,
-          "parentId": 10200,
-          "level": 2,
-          "auth": "0"
-        }
-      ]
-    },
-    {
-      "desc": "题库管理",
-      "icon": "ProfileOutlined",
-      "id": 10300,
-      "level": 1,
-      "name": "题库管理",
-      "parentId": 0,
-      "sort": 1,
-      "url": "/questionbank",
-      "auth": "0",
-      "children": [
-        {
-          "id": 10301,
-          "name": "题目管理",
-          "url": "/questionbank/topic",
-          "icon": "",
-          "desc": "题目管理",
-          "sort": 1,
-          "parentId": 10300,
-          "level": 2,
-          "auth": "0"
-        }
-      ]
-    },
-    {
-      "desc": "数据统计与分析",
-      "icon": "ProfileOutlined",
-      "id": 10400,
-      "level": 1,
-      "name": "数据统计与分析",
-      "parentId": 0,
-      "sort": 1,
-      "url": "/statisticsAnalysis",
-      "auth": "0",
-      "children": [
-        {
-          "id": 10401,
-          "name": "模拟考试记录",
-          "url": "/statisticsAnalysis/examinationRecord",
-          "icon": "",
-          "desc": "模拟考试记录",
-          "sort": 1,
-          "parentId": 10400,
           "level": 2,
           "auth": "0"
         }

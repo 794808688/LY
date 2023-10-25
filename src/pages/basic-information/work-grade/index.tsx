@@ -3,7 +3,7 @@ import { Button, Divider, Form, Input, Modal, Select, Switch, Table, Tag, messag
 import * as React from 'react'
 import PageWrap from '~/components/component/PageWrap'
 import { nanoid } from 'nanoid';
-import { apidelInfo, apigetGetherList, apigetWorkTypeList, apisaveGether } from './service';
+import { apigetSystemList, apisaveSystem } from './service';
 const { Search } = Input;
 const { TextArea } = Input;
 
@@ -19,10 +19,10 @@ const workgrade = () => {
   const [checked, setChecked] = React.useState(true)
 
   React.useEffect(() => {
-    getGetherList()
+    getSystemList()
   }, [page])
   React.useEffect(() => {
-    getWorkTypeList()
+    // getWorkTypeList()
   }, [])
   //翻页
   const pageChangeHandle = ({ current, pageSize }: any) => {
@@ -30,26 +30,19 @@ const workgrade = () => {
   }
   const columns: any[] = [
     {
-      title: '学科名称',
-      dataIndex: 'sname',
-    },
-    {
-      title: '渠道平台',
-      dataIndex: 'gather_id',
-      render: (text: any, record: any) => (
-        record.gather_id == 0 ? '武汉云' : ''
+      title: '序号',
+      dataIndex: '',
+      render: (text: any, record: any, index: number) => (
+        (page.page - 1) * page.size + index + 1
       )
     },
     {
-      title: '简称',
-      dataIndex: 'jc',
+      title: '应用名称',
+      dataIndex: 'name',
     },
     {
-      title: '科目类型',
-      dataIndex: 'type',
-      render: (text: any, record: any) => (
-        record.type == 0 ? '理论' : '技能'
-      )
+      title: '应用管理员',
+      dataIndex: '',
     },
     {
       title: '状态',
@@ -59,7 +52,7 @@ const workgrade = () => {
       )
     },
     {
-      title: '备注',
+      title: '到期日期',
       dataIndex: 'remark',
     },
     {
@@ -101,7 +94,7 @@ const workgrade = () => {
           key: 'sid',
           value: record.sid,
         }
-        delInfo(params)
+        // delInfo(params)
       }
     });
   }
@@ -111,13 +104,12 @@ const workgrade = () => {
     let params: any = {
       ...values,
       status: checked ? 1 : 0,
-      sname:worktype.filter((item:any)=>item.wid==values.code)[0]?.name
     }
     if (type === 'add') {
-      saveGethert(params)
+      saveSystem(params)
     } else {
       params.sid = record.sid
-      saveGethert(params)
+      saveSystem(params)
     }
     setIsModalOpen(false)
   }
@@ -130,7 +122,7 @@ const workgrade = () => {
 
   return (
     <div className='workMaintenance'>
-      <Modal title='新建学科' visible={isModalOpen} onOk={handleOk} onCancel={() => setIsModalOpen(false)}>
+      <Modal title='新建应用' visible={isModalOpen} onOk={handleOk} onCancel={() => setIsModalOpen(false)}>
         <Form
           form={form}
           name="basic"
@@ -139,33 +131,23 @@ const workgrade = () => {
           initialValues={{ remember: true }}
           autoComplete="off"
         >
-          {/* <Form.Item
-            label="学科名称"
-            name="sname"
-            rules={[{ required: true, message: '请输入学科名称!' }]}
-          >
-            <Input placeholder='请输入学科名称' />
-          </Form.Item> */}
           <Form.Item
-            label="学科名称"
-            name="code"
+            label="应用名称"
+            name="name"
           >
-            <Select
-              options={worktype}
-              fieldNames={{ value: 'wid', label: 'name' }}
-            />
+            <Input placeholder='请输入应用名称' />
           </Form.Item>
           <Form.Item
-            label="简称"
+            label="到期日期"
             name="jc"
-            rules={[{ required: true, message: '请输入简称!' }]}
+            rules={[{ required: true, message: '请选择日期!' }]}
           >
-            <Input placeholder='请输入简称' />
+            
           </Form.Item>
           <Form.Item
-            label="科目类型"
+            label="主模块"
             name="type"
-            rules={[{ required: true, message: '请选择科目类型!' }]}
+            rules={[{ required: true, message: '请选择主模块!' }]}
             initialValue={0}
           >
             <Select
@@ -182,29 +164,25 @@ const workgrade = () => {
             />
           </Form.Item>
           <Form.Item
-            label="渠道平台"
+            label="授权模块"
             name="gather_id"
-            rules={[{ required: true, message: '请选择渠道平台!' }]}
+            rules={[{ required: true, message: '请选择授权模块!' }]}
             initialValue={0}
           >
             <Select
+              mode="multiple"
               options={[
                 {
                   value: 0,
                   label: '武汉云',
                 },
+                {
+                  value: 1,
+                  label: '武汉云',
+                },
               ]}
             />
           </Form.Item>
-          {/* <Form.Item
-            label="职业编码"
-            name="code"
-          >
-            <Select
-              options={worktype}
-              fieldNames={{ value: 'wid', label: 'name' }}
-            />
-          </Form.Item> */}
           <Form.Item
             label="备注"
             name="remark"
@@ -215,7 +193,7 @@ const workgrade = () => {
             label="是否可用"
             name="status"
           >
-            <Switch onClick={() => setChecked(!checked)} checked={checked} checkedChildren="已启用" unCheckedChildren="已停用" defaultChecked />
+            <Switch onClick={() => setChecked(!checked)} checked={checked} checkedChildren="可用" unCheckedChildren="禁用" defaultChecked />
           </Form.Item>
         </Form>
       </Modal>
@@ -238,9 +216,9 @@ const workgrade = () => {
       </PageWrap>
     </div>
   )
-  //获取学科列表
-  async function getGetherList() {
-    const res: any = await apigetGetherList({})
+  //获取应用列表
+  async function getSystemList() {
+    const res: any = await apigetSystemList({})
     if (res.code === 200) {
       res.data.list.map((item: any) => {
         item.key = nanoid()
@@ -248,35 +226,14 @@ const workgrade = () => {
       setData(res.data)
     }
   }
-  //保存学科
-  async function saveGethert(params: any) {
-    const res: any = await apisaveGether({ ...params })
+  //保存应用
+  async function saveSystem(params:any) {
+    const res: any = await apisaveSystem({...params})
     if (res.code === 200) {
-      getGetherList()
-      message.success('编辑成功')
+      message.success('保存成功')
     }
   }
-  //获取职业
-  async function getWorkTypeList() {
-    const res: any = await apigetWorkTypeList({})
-    if (res.code === 200) {
-      res.data.list.map((item: any) => {
-        item.key = nanoid()
-        item.lv = item.level==5?'五级/初级工':item.level==4?'四级/中级工':item.level==3?'三级/高级工':item.level==2?'二级/技师':item.level==1?'一级/高级技师':''
-        item.name = item.work_name +'-'+ item.lv
-      })
-      setWorkType(res.data.list)
-    }
-  }
-  //删除学科
-  async function delInfo(params: any) {
-    const res: any = await apidelInfo({ ...params })
-    if (res.code === 200) {
-      getGetherList()
-      message.success('删除成功')
-    }
-  }
-
+  
 }
 
 export default workgrade 

@@ -181,26 +181,6 @@ const routes: IRoute[] = [
     },
     redirect: "/platform/account",
     children: [
-      //首页分析
-      {
-        path: "/homes",
-        meta: {
-          title: "首页",
-          icon: "HomeOutlined",
-        },
-        lv: 1,
-        redirect: "/homes/index",
-        children: [
-          {
-            path: "/homes/index",
-            component: React.lazy(() => import("~/pages/homes/index")),
-            meta: {
-              title: "数据总览",
-              icon: "dashborad",
-            },
-          },
-        ],
-      },
       //个人中心
       {
         path: "/account/center",
@@ -307,7 +287,7 @@ const routes: IRoute[] = [
       {
         path: "/basic-information",
         meta: {
-          title: "基本信息维护",
+          title: "应用维护",
         },
         lv: 1,
         redirect: "/basic-information/assessor-maintenance",
@@ -315,59 +295,16 @@ const routes: IRoute[] = [
           {
             path: "/basic-information/work-grade",
             meta: {
-              title: "学科（职业）维护",
+              title: "应用管理",
             },
             component: React.lazy(() => import("~/pages/basic-information/work-grade")),
           },
           {
             path: "/basic-information/conditions-maintenance",
             meta: {
-              title: "真题出题规则",
+              title: "模块管理",
             },
             component: React.lazy(() => import("~/pages/basic-information/conditions-maintenance")),
-          },
-          {
-            path: "/basic-information/questiontype",
-            meta: {
-              title: "题目类型维护",
-            },
-            component: React.lazy(() => import("~/pages/basic-information/questiontype")),
-          },
-
-
-        ],
-      },
-      {
-        path: "/questionbank",
-        meta: {
-          title: "题库管理",
-        },
-        lv: 1,
-        redirect: "/questionbank/topic",
-        children: [
-          {
-            path: "/questionbank/topic",
-            meta: {
-              title: "题目管理",
-            },
-            component: React.lazy(() => import("~/pages/questionbank/topic")),
-          },
-        ],
-      },
-      {
-        path: "/statisticsAnalysis",
-        meta: {
-          title: "数据统计与分析",
-        },
-        lv: 1,
-        redirect: "/statisticsAnalysis/examinationRecord",
-        children: [
-          {
-            path: "/statisticsAnalysis/examinationRecord",
-            meta: {
-              title: "模拟考试记录",
-            },
-            component: React.lazy(() => import("~/pages/statisticsAnalysis/examinationRecord")),
           },
         ],
       },

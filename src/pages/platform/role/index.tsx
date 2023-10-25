@@ -1,7 +1,7 @@
 import { Button, Divider, Form, Input, Modal, Select, Table, Tree, message } from 'antd'
 import * as React from 'react'
 import PageWrap from '~/components/component/PageWrap'
-import { apiGetRole, apiaddRole, apideleteRole, apimodRole } from './service';
+import { apiGetRole, apideleteRole, apisaveRole } from './service';
 import MenuList from '~/config/menu.json';
 import type { DataNode } from 'antd/es/tree';
 import { useMemo } from 'react';
@@ -107,9 +107,9 @@ export default function role() {
       lv: values.lv
     }
     if (!type) {
-      addRole(params)
+      saveRole(params)
     } else {
-      modRole(params)
+      saveRole(params)
     }
     setIsModalOpen(false)
   }
@@ -122,7 +122,7 @@ export default function role() {
       okText: '确认',
       cancelText: '取消',
       onOk() {
-        delRole(record.authid)
+        // delRole(record.authid)
       },
     });
   };
@@ -218,17 +218,9 @@ export default function role() {
       setData(res.data.list)
     }
   }
-  //新建角色
-  async function addRole(params: any) {
-    const res: any = await apiaddRole({ ...params })
-    if (res.code === 200) {
-      message.success('新增成功')
-      GetRole()
-    }
-  }
   //修改角色
-  async function modRole(params: any) {
-    const res: any = await apimodRole({ ...params })
+  async function saveRole(params: any) {
+    const res: any = await apisaveRole({ ...params })
     if (res.code === 200) {
       message.success('修改成功')
       GetRole()
